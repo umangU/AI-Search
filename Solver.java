@@ -1,10 +1,13 @@
+//Importing relevant libraries
 import java.util.Deque;
 import java.util.LinkedList;
 
 public class Solver {
-     
+    
+    //Searchnde object
     private final Searchnode node;
-
+    
+     //Variables declared
     private static class Searchnode implements Comparable<Searchnode> {
         public final Board places;
         public final Searchnode previous;
